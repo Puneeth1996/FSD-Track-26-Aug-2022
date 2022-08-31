@@ -1,0 +1,56 @@
+body {
+    /* @font-face {
+        font-family: Ariel;
+        src: local("Helvetica Neue Bold"),
+                local("HelveticaNeue-Bold"),
+                url(MgOpenModernaBold.ttf);
+        font-weight: bold;
+    } */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-size: 20px; */
+    font-size: 0.75rem;
+}
+.blog-card {
+    border: 1px solid gray;
+    width: 300px;
+}
+#blog-4 {
+    width: 600px;
+}
+#blog-4 img {
+    width: 100px;
+    height: 150px;
+}
+
+#img1 {
+    width: 100px;
+    height: 150px;
+}
+#img2 {
+    width: 1.4rem;
+    height: 1.4rem;
+}
+#img3 {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+#img4 {
+    width: 0.8rem;
+    height: 0.8rem;
+}
+.blog-card h1 {
+    font-weight: 800;
+}
+.blog-card p {
+    font-weight: 900;
+}
+
+.blog-card b {
+    font-weight: 400;
+}
+.blog-card i {
+    font-weight: 400;
+}
+.blog-card strong {
+    font-weight: 400;
+}
