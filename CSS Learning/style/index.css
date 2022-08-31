@@ -13,30 +13,13 @@ body {
 .blog-card {
     border: 1px solid gray;
     width: 300px;
-}
-#blog-4 {
-    width: 600px;
-}
-#blog-4 img {
-    width: 100px;
-    height: 150px;
-}
-
-#img1 {
-    width: 100px;
-    height: 150px;
-}
-#img2 {
-    width: 1.4rem;
-    height: 1.4rem;
-}
-#img3 {
-    width: 1.8rem;
-    height: 1.8rem;
-}
-#img4 {
-    width: 0.8rem;
-    height: 0.8rem;
+    margin: 20px;
+    padding: 50px;
+    /* background-image: url('../img/nature.png');
+    background-repeat: no-repeat;
+    background-position: center; */
+    background: linear-gradient(to bottom, #223ccf 10%, #ff99cc 80%);
+    color: hsla(69, 93%, 47%, 1)
 }
 .blog-card h1 {
     font-weight: 800;
@@ -54,3 +37,16 @@ body {
 .blog-card strong {
     font-weight: 400;
 }
+.blog-card {
+    height: 30vh;
+    float: left;
+}
+.blog-card p {
+    height: 10vh;
+    overflow: scroll;
+}
+
+@media (min-width: 400px) and (max-width: 700px) { body { background-color: purple; } }
+
+
+
