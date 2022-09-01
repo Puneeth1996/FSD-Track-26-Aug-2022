@@ -16,12 +16,18 @@ body {
 }
 #test #make1 {
     font-family: 'NotoSansAvestan';
+    color: blueviolet;
+    font-size: 12px;
 }
 #test #make2 {
     font-family: 'Notable';
+    color: rgb(43, 226, 73);
+    font-size: 20px;
 }
 #test #make3 {
     font-family: 'QwitcherGrypen';
+    color: rgb(226, 95, 43);
+    font-size: 36px;
 }
 .blog-card {
     border: 1px solid gray;
