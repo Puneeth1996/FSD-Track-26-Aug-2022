@@ -1,0 +1,70 @@
+@font-face {
+    font-family: NotoSansAvestan;
+    src: url('./fonts/NotoSansAvestan-Regular.ttf');
+}
+@font-face {
+    font-family: Notable;
+    src: url('./fonts/Notable-Regular.ttf');
+}
+@font-face {
+    font-family: QwitcherGrypen;
+    src: url('./fonts/QwitcherGrypen-Regular.ttf');
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.75rem;
+}
+#test #make1 {
+    font-family: 'NotoSansAvestan';
+}
+#test #make2 {
+    font-family: 'Notable';
+}
+#test #make3 {
+    font-family: 'QwitcherGrypen';
+}
+.blog-card {
+    border: 1px solid gray;
+    width: 300px;
+    margin: 20px;
+    padding: 50px;
+    background: linear-gradient(to bottom, #223ccf 10%, #ff99cc 80%);
+    color: hsla(69, 93%, 47%, 1)
+}
+.blog-card h1 {
+    font-weight: 800;
+}
+.blog-card p {
+    font-weight: 900;
+}
+
+.blog-card b {
+    font-weight: 400;
+}
+.blog-card i {
+    font-weight: 400;
+}
+.blog-card strong {
+    font-weight: 400;
+}
+.blog-card {
+    height: 30vh;
+    float: left;
+}
+.blog-card p {
+    height: 10vh;
+    overflow: scroll;
+}
+
+
+
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 400px) and (max-device-width: 650px) {
+  /* For portrait layouts only */
+    body{ background:pink;}
+}
+
+@media only screen and (min-device-width: 700px) and (max-device-width: 900px) {
+  /* For landscape layouts only */
+    body{ background:gray;}
+}
