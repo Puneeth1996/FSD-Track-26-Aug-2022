@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex Grid</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .item {
+            background-color: aqua;
+            border: 1px solid red;
+            width: 100px;
+            height: 70px;
+        }
+        .container {
+            width: 100%;
+            height: 500px;
+            border: 0.5px solid greenyellow;
+            display: flex;
+            column-gap: 20px;
+        }
+        .container-signin-signout {
+            display: flex;
+            width: 300px;
+            justify-content: end;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item one">1</div>
+        <div class="item two">2</div>
+        <div class="item three">3</div>
+        <div class="item four container-signin-signout">4in/out</div>
+        <!-- <div class="item five">5</div>
+        <div class="item six">6</div>
+        <div class="item seven">7</div>
+        <div class="item eight">8</div>
+        <div class="item nine">9</div>
+        <div class="item ten">10</div>
+        <div class="item eleven">11</div>
+        <div class="item twelve">12</div> -->
+    </div>
+    
+</body>
+</html>
