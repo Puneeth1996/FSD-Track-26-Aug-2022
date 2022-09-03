@@ -4,10 +4,8 @@
 }
 .container {
     display: grid;
-    grid-template-columns: repeat(3, 100px);
-    grid-column-gap: 5px;
-    grid-row-gap: 12px;
-    grid-auto-rows: 100px;
+    grid-template-rows:[row-1-start] 100px [row-2-start] 100px [row-3-start] 200px [row-3-end];
+    grid-template-columns:[col-1-start] 100px [col-2-start] 100px [col-3-start] 200px [col-3-end];
 }
 
 .item {
@@ -16,13 +14,14 @@
 }
 
 .one {
-    grid-area: 1 / 1 / 2 / 4;
-}
-.three {
-    grid-template-rows: 2 / 3;
-    grid-template-columns: 2 / 4;
+    grid-row: row-1-start / row-2-start;
+    grid-column: col-1-start / col-3-start;
 }
 
+.three {
+    grid-row: row-1-start / row-1-end;
+    grid-column: col-1-start / col-3-start;
+}
 
 
 
