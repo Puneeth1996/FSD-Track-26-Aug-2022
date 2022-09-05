@@ -1,0 +1,28 @@
+.pricing-container {
+    display: flex;
+    margin: 50px 0;
+    justify-content: space-around;
+}
+
+.pricing-item {
+    border: 1px solid yellowgreen;
+    width: 300px;
+    padding-bottom: 25px;
+}
+
+
+.pricing-item h1 {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.pricing-item ol {
+    padding: 10px 0;
+    margin-left: 24px;
+}
+
+.pricing-item ol li {
+    line-height: 1.25;
+    margin-bottom: 12px;
+}
+

@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    border-bottom: 1px solid #302f2f;
+    padding-bottom: 24px;
+}
+
+.logo {
+    background-image: url('./img/logo.jpg');
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav-section {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    border-bottom: 5px solid #991c1c;
+    align-self: center;
+    padding: 25px;
+    margin-left: 8px;
+}
+.nav-link a {
+    text-decoration: none;
+}
