@@ -8,21 +8,56 @@
     border: 1px solid yellowgreen;
     width: 300px;
     padding-bottom: 25px;
+    border-radius: 50px;
+    text-align: center;
 }
 
+.premium-label {
+    background-color: #ecd0d0 !important;
+    color: black !important;
+}
 
 .pricing-item h1 {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
     text-align: center;
     padding: 30px 0px;
+    background-color: #5e4949;
+    color: white;
 }
 
 .pricing-item ol {
+    list-style-type: none;
     padding: 10px 0;
-    margin-left: 24px;
 }
 
 .pricing-item ol li {
+    text-align: start;
     line-height: 1.25;
     margin-bottom: 12px;
+    border-bottom: 1px solid gray;
+    padding: 2px 12px;
 }
+
+.pricing-item p {
+    text-align: end;
+    color: brown;
+    background-color: aquamarine;
+    font-size: 12px;
+    margin: 10px 12px;
+    padding: 14px;
+}
+
+.pricing-item .buy-now {
+    background-color: deepskyblue;
+    border-radius: 30px;
+    font-style: italic;
+    justify-content: center;
+    width: 50%;
+    height: 40px;
+    margin: auto;
+}
+
+
+
 
