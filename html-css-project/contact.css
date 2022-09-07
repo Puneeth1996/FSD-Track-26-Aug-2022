@@ -3,9 +3,7 @@
 }
 
 .reach-section {
-    margin-top: 24px;
     background-color: #181715e7;
-    padding-bottom: 24px;
 }
 .reach-info-grid {
     display: flex;
@@ -14,12 +12,12 @@
 
 .reach-info {
     border: 1px solid green;
-    padding: 24px;
+    padding: 12px;
     border-radius: 20px;
     text-align: center;
     font-size: 18px;
     color: white;
-    min-width: 350px;
+    min-width: 250px;
 }
 
 .reach-info p:first-child { 
@@ -27,3 +25,46 @@
     font-size: 36px;
     border-bottom: 3px solid gold;
 }
+
+.contact-us-container {
+    width: 100%;
+    padding: 24px;
+    background-color: cadetblue;
+}
+
+.form-element {
+    margin: 10px 0 10px 0;
+    display: flex;
+    column-gap: 12px;
+}
+
+.form-element label {
+    /* styling for the label */
+    min-width: 130px;
+}
+
+.form-element input , .form-element textarea ,  .form-element select  {
+    /* styling for the input and text area field */
+    width: 30%;
+}
+
+.form-element textarea {
+    width: 30.125%;
+}
+
+.form-element input[type="submit"] {
+    /* styling for button */ 
+    width: 16%;   
+    background-color: deepskyblue;
+    border-radius: 30px;
+    font-style: italic;
+    height: 24px;
+    margin-top: 12px;
+}
+
+.two-column-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
