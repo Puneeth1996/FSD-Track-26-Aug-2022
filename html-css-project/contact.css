@@ -26,10 +26,14 @@
     border-bottom: 3px solid gold;
 }
 
+.contact-section {
+    background-color: cadetblue;
+    width: 30%;
+}
+
 .contact-us-container {
     width: 100%;
     padding: 24px;
-    background-color: cadetblue;
 }
 
 .form-element {
