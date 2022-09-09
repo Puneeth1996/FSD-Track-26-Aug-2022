@@ -1,3 +1,10 @@
+.two-column-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-1, .col-2 {
+    flex: 49%;
+}
 .reach-section .main-heading {
     color: white;
 }
@@ -8,67 +15,36 @@
 .reach-info-grid {
     display: flex;
     justify-content: space-around;
+    margin: 62px 0px;
 }
 
 .reach-info {
-    border: 1px solid green;
     padding: 12px;
-    border-radius: 20px;
-    text-align: center;
-    font-size: 18px;
+    font-size: 64px;
     color: white;
-    min-width: 250px;
 }
-
-.reach-info p:first-child { 
-    margin-bottom: 18px;
-    font-size: 36px;
-    border-bottom: 3px solid gold;
-}
-
 .contact-section {
-    background-color: cadetblue;
-    width: 30%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 8px;
 }
 
-.contact-us-container {
+input[type=text], select, textarea {
     width: 100%;
-    padding: 24px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
 
-.form-element {
-    margin: 10px 0 10px 0;
-    display: flex;
-    column-gap: 12px;
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
-
-.form-element label {
-    /* styling for the label */
-    min-width: 130px;
-}
-
-.form-element input , .form-element textarea ,  .form-element select  {
-    /* styling for the input and text area field */
-    width: 30%;
-}
-
-.form-element textarea {
-    width: 30.125%;
-}
-
-.form-element input[type="submit"] {
-    /* styling for button */ 
-    width: 16%;   
-    background-color: deepskyblue;
-    border-radius: 30px;
-    font-style: italic;
-    height: 24px;
-    margin-top: 12px;
-}
-
-.two-column-container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
