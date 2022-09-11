@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms in Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <style>
+    </style>
+</head>
+
+<body>
+    <h3> Fancy display heading </h3>
+    <form class="form-horizontal container border border-danger p-5">
+        <div class="form-group">
+            <label for="nameInput">Name</label>
+            <input type="text" id="nameInput" class="form-control" placeholder="Please enter your name" />
+        </div>
+
+        <div class="form-group">
+            <label>Gender</label>
+            <input type="radio" name="gender" class="form-check-input">Male </input>
+            <input type="radio" name="gender" class="form-check-input">Female </input>
+            <p class="text-danger">Please Select Gender</p>
+        </div>
+
+
+        <div class="form-group">
+            <textarea name="message" id="msg" cols="30" rows="10" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+            <label>Vehicles</label>
+            <input type="checkbox" name="car" class="form-check-inline">Car </input>
+            <input type="checkbox" name="bike" class="form-check-inline">Bike </input>
+            <p class="text-danger">Please Select Vehicles</p>
+        </div>
+        <div class="form-group">
+            <select class="form-select">
+                <option value="one">one</option>
+                <option value="two">two</option>
+                <option value="three">three</option>
+            </select>
+        </div>
+        <button class="btn btn-info mt-3 bg-danger">Submit</button>
+    </form>
+    <form>
+        <div class="row container m-4">
+            <div class="col"> <input type="text" class="form-control" placeholder="First name"> </div>
+            <div class="col"> <input type="text" class="form-control" placeholder="Last name"> </div>
+            <div class="col"> <button class="btn btn-info">Submit</button> </div>
+        </div>
+    </form>
+
+
+</body>
+
+</html>

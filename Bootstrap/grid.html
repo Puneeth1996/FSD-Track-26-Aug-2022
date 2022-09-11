@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grids in bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="container">
+        <h1>Grids in boostrap</h1>
+        <form>
+            <div class="row">
+                <div class="col-5"> <input type="text" class="form-control" placeholder="First name"> </div>
+                <div class="col-5"> <input type="text" class="form-control" placeholder="Last name"> </div>
+                <div class="col-2"> <button class="btn btn-info">Submit</button> </div>
+            </div>
+        </form>
+    </div>
+    
+    <div class="row border border-danger">
+        <div class="col-12 border border-info">Main Header</div>
+        <div class="col-2 border border-warning">Side Nav</div>
+        <div class="col-8 border border-sucess">
+            Main Content
+            <div class="col-2">Content1</div>
+            <div class="col-2">Content2</div>
+            <div class="col-2">Content3</div>
+            <div class="col-2">Content4</div>
+        </div>
+        <div class="col-12">Main Header</div>
+    </div>
+    <!-- align , justify, ( start , end, center ) , items , content -->
+    <div class="row mt-5 justify-content-evenly align-items-center text-end" style="height: 50vh; border: 1px solid rgb(203, 90, 203);">
+        <div class="col-4 align-self-end" style="height: 10vh; border: 1px solid rgb(203, 90, 203);"><p class="bg-info">Lorem ipsum.</p></div>
+        <div class="col-6 align-self-center" style="height: 10vh; border: 1px solid rgb(203, 90, 203);"><p class="bg-warning">Lorem ipsum.</p></div>
+    </div>
+</body>
+</html>
