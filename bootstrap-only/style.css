@@ -1,0 +1,23 @@
+
+.main-banner {
+    background-image: url('./img/altumcode-g7UfI6Xsi7o-unsplash.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+    opacity: 0.8;
+}
+.btn-itms {
+    padding-top: 275px;
+    padding-left: 28%;
+}
+
+.about-img {
+    background-image: url('./img/sebastian-pandelache-CicDjqp0I5w-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    width: 50%;
+    height: 600px;
+    opacity: 0.8;
+}
