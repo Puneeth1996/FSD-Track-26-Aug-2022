@@ -1,0 +1,34 @@
+.banner-image {
+    background-image: url('../img/rod-long-7Csefv0S--Q-unsplash.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 625px;
+    opacity: 0.9;
+}
+
+.header-info {
+    padding-top: 280px;
+}
+
+.header-info h2 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+.about-img {
+    background-image: url('../img/sebastian-pandelache-CicDjqp0I5w-unsplash.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 50%;
+    height: 600px;
+}
+
+.imgset {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
