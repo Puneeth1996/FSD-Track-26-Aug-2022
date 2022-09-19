@@ -1,0 +1,43 @@
+Introduction to Javascrpit 
+
+
+
+    What Is Javascrpit? - Programming language , 1997, ES6 version, interactions, light wieght, 
+
+
+    Is Object Oriented Programming, Scripting Language : Ans Both
+
+
+    Why Javascrpit is THE MOST LOVED LANGUAGE & THE MOST HATED LANGUAGE.
+    hated :  lot of lines , 
+    Liked : simple and easly to understand and write in javscript , 
+
+
+    Remberer[Hosted] : When react, lets you debug some write you would see a lot of code that not written, and might be comming from other frameworks or library.
+
+
+
+    History Of Javascrpit
+    1997, Brendan Eich( From the Days of Netscape ) ,  
+    ECMA Script, ECMA is desciding body of mainting standard of JS 
+    June 2009 ES - 5, 
+    Rigth Now ES - 6  
+
+    [Point to Note] -> Javascript ( JS ) and JAVA Are two different programming language.
+
+
+    Where Can I utilize Javascript
+        Browser Games
+        Web Application, Web Sites, Web Presentation 
+        Mobile Applicaiton, 
+        Server Side Scripting
+        etc
+
+
+
+    How to run Javascript Class.
+        Node Run TIme environment, 
+        For Our Development Purpose , Chrome Browser
+
+
+
