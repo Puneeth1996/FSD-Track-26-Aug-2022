@@ -41,3 +41,42 @@ Introduction to Javascrpit
 
 
 
+20 September 2022
+
+Three Ways of Writing javscript code in html 
+    1. Inline 2. Js File 3. Creating Script Tag in the HTML Document
+
+
+Keywords : Reserved Words in Javascript 
+
+Variable and Declaration
+
+    we can use : var, const , let | To store Primitve Data Type : Number , string , Boolean ,
+    const ( variable name defined with const connect take be changed once its defined )
+    var and let ( variable names defined here can be modified to take up different types of data say strings or number or Boolean )
+    
+
+    Difference Between Null And Undefined 
+    Undefined : This is seen when a variable name is defined and not assigned with any value to it 
+    Null : This is a manual assignment , wherein the type of data is null
+
+
+Operators In Javascript
+
+    assignment ( = )
+
+    ASSIGNMENET TOPIC ------>    Arithemetic Operators (  + , - , / , * , % ) 
+
+    Conditional Operators ( < , > , <= , >= , !=, == , === , !== )
+
+    Unary Operators ( ++ , -- )
+
+    Logical Operators ( && , || )
+
+    Ternary Operators ( ? : ) - Also Inline If conditiona
+        true ? console.log("This is Fine") : console.log("Failed Script");
+        VM2312:1 This is Fine
+        undefined
+        false ? console.log("This is Fine") : console.log("Failed Script");
+        VM2385:1 Failed Script
+        undefined
