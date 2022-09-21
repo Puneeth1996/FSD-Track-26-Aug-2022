@@ -80,3 +80,11 @@ Operators In Javascript
         false ? console.log("This is Fine") : console.log("Failed Script");
         VM2385:1 Failed Script
         undefined
+
+
+
+
+21 September 2022
+
+
+    Today's topic to learn Conditional Statements( if, if else, if else if , for , while , do while , switch )
