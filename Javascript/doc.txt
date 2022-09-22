@@ -88,3 +88,21 @@ Operators In Javascript
 
 
     Today's topic to learn Conditional Statements( if, if else, if else if , for , while , do while , switch )
+
+
+
+22 September 2022
+
+    Strings -> Why strings are immutable,  few strings methods like tolower(), toUpper(), length() , indexOf(), slice(), repalce() , escape characters, string literals,    
+                Performing string addition + , - , / 
+
+    Math Object in Javascript
+
+    two general methods parseInt and typeOf 
+
+
+    Objects -> 
+            How to create object 
+            add properties to an object
+            access properties using dot and [] notation
+            nested object
