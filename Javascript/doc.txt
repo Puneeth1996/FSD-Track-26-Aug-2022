@@ -106,3 +106,15 @@ Operators In Javascript
             add properties to an object
             access properties using dot and [] notation
             nested object
+
+
+
+23 September 2022
+    Revised on the objects bracket notation,
+    for / in and for / of loops basic usecase like one would be used in the iteration of objects and other iteration of array
+
+
+    Arrys ->
+            How to create an array
+            is arrays reference type ( arrays and object which have some properties or methods ) or primitive type( data no properties or methods ).
+            push pop, slice shift unshift reverse, sort splice  join . concat ,  
