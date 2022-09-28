@@ -15,7 +15,8 @@ function buttonClick(){
     
     // adding class names to the newly added todo li items 
     li.classList.add('item-todo');
-    li.setAttribute('onclick','struck(this);')
+    li.setAttribute('onclick','struck(this);');
+    li.setAttribute('style', 'color: antiquewhite')
     ulContent.appendChild(li);
     // also clear the input field 
     taskInput.value = '';

@@ -187,53 +187,71 @@ Operators In Javascript
 
 28 September 2022
 
-    Use the below test 
-    https://api.publicapis.org/entries?title=bu&description=dip
+                        Use the below test 
+                        https://api.publicapis.org/entries?title=bu&description=dip
 
 
-    Four states in the xml http request object
-                request not initialezed
-                server connection established
-                request received
-                processing request 
-                request finished and response is ready 
+                        Four states in the xml http request object
+                                    request not initialezed
+                                    server connection established
+                                    request received
+                                    processing request 
+                                    request finished and response is ready 
 
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-        document.getElementById("demo").innerHTML =
-        this.responseText;
-        }
-    };
-    xhttp.open("GET", "xmlhttp_info.txt", true);
-    xhttp.send();
-
-
-
-'click' , loadData 
-
-function loadData(event) {
-    var xhttp = new XMLHttpRequest();
-    xhr.open('get', 'https://api.publicapis.org/entries?', true);
-    xhr.onload = function () {
-        if(this.state === 200) {
-            log(this.responseText);
-        }
-    }
-    xhr.send();
-}
+                        var xhttp = new XMLHttpRequest();
+                        xhttp.onreadystatechange = function() {
+                            if (this.readyState == 4 && this.status == 200) {
+                            document.getElementById("demo").innerHTML =
+                            this.responseText;
+                            }
+                        };
+                        xhttp.open("GET", "xmlhttp_info.txt", true);
+                        xhttp.send();
 
 
 
-fetch(url).then( res => res.json() ).then( data => clg(data)).catch(err => clg(err));
+                    'click' , loadData 
+
+                    function loadData(event) {
+                        var xhttp = new XMLHttpRequest();
+                        xhr.open('get', 'https://api.publicapis.org/entries?', true);
+                        xhr.onload = function () {
+                            if(this.state === 200) {
+                                log(this.responseText);
+                            }
+                        }
+                        xhr.send();
+                    }
 
 
 
-const response = await fetch(uel);
+                    fetch(url).then( res => res.json() ).then( data => clg(data)).catch(err => clg(err));
 
-const data = await response.json();
 
-clg(data);
+
+                    const response = await fetch(uel);
+
+                    const data = await response.json();
+
+                    clg(data);
+
+28 September 2022
+
+    Topic to do 
+
+        - Async vs syc code 
+        - API( Applicaiton Programming Interface ) call -> XMLHttpRequest , fetch , axios 
+
+
+        Discussion ES6 Features 
+                arrow function
+                let const 
+                default function parameter 
+                rest and spread 
+                class 
+                object literals
+                template strings
+                destructing arrays and objects  
 
 
 
