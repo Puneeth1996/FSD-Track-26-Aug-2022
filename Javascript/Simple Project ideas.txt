@@ -1,0 +1,13 @@
+1. Shopping Items , todo and purchase
+        Simple input , with the items shown in list, 
+        On click of the item, it should be done
+
+
+2. Simple Color Picker 
+    Some Color Pallets, on click of box should show the color value in h1
+
+
+3. Reach the destination simple game with up donw arrwo in the window 
+
+
+4. Simple Form Submittion Preparation

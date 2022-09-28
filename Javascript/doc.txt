@@ -118,3 +118,122 @@ Operators In Javascript
             How to create an array
             is arrays reference type ( arrays and object which have some properties or methods ) or primitive type( data no properties or methods ).
             push pop, slice shift unshift reverse, sort splice  join . concat ,  
+
+
+24 September 2022
+
+    What is function / methods in javscript
+        -> A set of statements that performs a task or calculates a values
+
+    How to write a function in JS 
+    Function arguments 
+    return values in function
+    function along with objects
+
+    // this Keywords in javascript, reference to the object that is beeing called or excution context
+    this is in object
+
+    anonymous function in javascript
+
+
+
+25 September 2022
+
+    In Function, What are callbacks methods or functions
+
+    Class. 
+        How to define a Class
+        Constructor method 
+        methods in class, 
+        Inheritence in class with using super Keyword
+        how this to provide access for sub methds in class using  this.argum1 = argum1 in Constructor method 
+
+
+
+26 September 2022
+
+    Scopes & Block & GLobal Scrope in javascript
+
+
+    Hoisting In Javascript
+        // Hoisting is about the wirtitng the varibale / declaring the variable above the functino experession , and can accessed in any of the scopes under its defination.
+
+
+    Closures in Javscript 
+        combination of function bundled together with reference to its surrounding states, 
+
+        inner function getting access to the varibles scoped outside the function
+
+
+    DOM manipulation in Javascript
+        
+        javascript selector
+        getElementById, getElementsByTagName, getElementsByClassName, querySelector, querySelectorAll,
+
+        modifyign/adding/removing the html elments 
+
+        events ( click, doubleclick , keyup, keydown, mouse hover, focus, mouse enter / leave, scroll , . . . )
+
+        event Listerners ( )
+
+
+
+
+
+27 September 2022
+
+    Created the TODO application using DOM manipulation in javscript.
+
+
+28 September 2022
+
+    Use the below test 
+    https://api.publicapis.org/entries?title=bu&description=dip
+
+
+    Four states in the xml http request object
+                request not initialezed
+                server connection established
+                request received
+                processing request 
+                request finished and response is ready 
+
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+        document.getElementById("demo").innerHTML =
+        this.responseText;
+        }
+    };
+    xhttp.open("GET", "xmlhttp_info.txt", true);
+    xhttp.send();
+
+
+
+'click' , loadData 
+
+function loadData(event) {
+    var xhttp = new XMLHttpRequest();
+    xhr.open('get', 'https://api.publicapis.org/entries?', true);
+    xhr.onload = function () {
+        if(this.state === 200) {
+            log(this.responseText);
+        }
+    }
+    xhr.send();
+}
+
+
+
+fetch(url).then( res => res.json() ).then( data => clg(data)).catch(err => clg(err));
+
+
+
+const response = await fetch(uel);
+
+const data = await response.json();
+
+clg(data);
+
+
+
