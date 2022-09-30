@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Axios Call</title>
+    <style>
+        body {
+            background: rgb(36, 0, 22);
+            background: linear-gradient(90deg, rgba(36, 0, 22, 1) 21%, rgba(242, 11, 132, 0.5158438375350141) 49%, rgba(0, 212, 255, 1) 78%);
+            color: white;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: .5em;
+            margin-top: .5em;
+            padding: 1em;
+            border: 1px solid white;
+            transition-property: background-color, color;
+            transition-duration: 500ms;
+            transition-timing-function: ease-in-out;
+        }
+
+        li:hover {
+            background-color: white;
+            color: black;
+        }
+
+        #new-todos form {
+            margin-bottom: .5em;
+            margin-top: .5em;
+            padding: 1em;
+            border: 1px solid white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="new-todos">
+        <h1>New Todo List</h1>
+        <form>
+            <label> 
+                Name
+                <input type="text" id="new-todos__title" />
+            </label>
+            <button type="submit">Add</button>
+        </form>
+    </div>
+    <div>
+        <h1>Todos</h1>
+        <ul>
+
+        </ul>
+    </div>
+    <script src="constants.js"></script>
+    <script src="getItems.js"></script>
+    <script src="form-add-todo.js"></script>
+    <script src="remove-todo.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
