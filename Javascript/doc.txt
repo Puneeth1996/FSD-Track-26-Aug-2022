@@ -271,10 +271,36 @@ Operators In Javascript
             class 
             object literals
             template strings
-            destructing arrays and objects  
+            destructing arrays and objects A 
+
+
+    Encoding in javascript : btoa() and atob() for base64 encoding of strings
 
 
 
+
+     Discussion ES6 Features 
+
+     What is the difference between var and let 
+        var -> functional scroped, 
+        redeclare, 
+        works without initializtion
+
+        let -> block scoped, cannot be redeclared, 
+
+
+    arrow function:
+        syntax ( no function keyword), no return stateemnt , no parenthesis, 
+        binding would to the nearest parent object
+        new keyword cannot be used in the arrow function 
+
+
+    Default paraments: 
+
+    Object destructing:
+
+
+    ASSIGNMENET: Arry destructing
 
 
 
