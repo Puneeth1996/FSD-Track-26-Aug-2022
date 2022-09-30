@@ -243,15 +243,41 @@ Operators In Javascript
         - API( Applicaiton Programming Interface ) call -> XMLHttpRequest , fetch , axios 
 
 
-        Discussion ES6 Features 
-                arrow function
-                let const 
-                default function parameter 
-                rest and spread 
-                class 
-                object literals
-                template strings
-                destructing arrays and objects  
+
+
+29 September 2022
+
+    Promises -> Pattern for writing async code, return either completion or failure object output
+
+    Callback Hell , Implementing Functions that returns Promises , how .then can be used to resolve the code , async/await methods 
 
 
 
+30 September 2022
+
+    Using await to make simeple api call
+
+    Making the use local storage with form submission, just breif understanding session storage and cookies
+
+    creating the canvas graphics 
+
+
+
+    Discussion ES6 Features 
+            arrow function
+            let const 
+            default function parameter 
+            rest and spread 
+            class 
+            object literals
+            template strings
+            destructing arrays and objects  
+
+
+
+
+
+
+
+
+    
