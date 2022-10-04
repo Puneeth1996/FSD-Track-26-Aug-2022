@@ -28,17 +28,18 @@
             <h1 class="main-heading">Contact Form </h1>
             <!-- Form Values name, phone number, location, email , message -->
             <div class="contact-us-container">
-                <form class="form-container">
-                        <br/><label>Name</label><br/><input type="text" name="" id="">
-                        <br/><label>Email</label><br/><input type="text" name="" id="">
-                        <br/><label>Message</label><br/><textarea type="text" name="" id="" ></textarea>
+                <form class="form-container" id="contact-us-form">
+                        <br/><label>Name</label><br/><input type="text" name="name" id="name">
+                        <br/><label>Email</label><br/><input type="text" name="email" id="email">
+                        <br/><label>Message</label><br/><textarea type="text" name="message" id="message" ></textarea>
                         <br/><label>Language</label>
-                        <br/><select>
+                        <br/><select id="language">
                             <option value="telugu" >Telugu</option>
                             <option value="hindi" >Hindi</option>
                             <option value="english" >English</option>
                         </select><br/>
                         <input type="submit" name="submit" id="submit" value="Send Form">
+                        <p id="error-message"></p>
                 </form>
             </div>
         </div>
@@ -58,7 +59,7 @@
         </div>
     </div>
 
-
+<script src="form-submission.js"></script>
 
 </body>
 </html>

@@ -304,6 +304,38 @@ Operators In Javascript
 
 
 
+1st Oct 2022
+
+    How can prepare form data for submission 
+
+    Starting with Jquery 
+
+    Binar Sytem , Octal, Hexadecimal, 
+
+    (2)base 10 -> binary 0001
+
+    Feeback Retrospection: 
+
+        Siva1 (BSiva) 
+        Good => All topics are covered Javascript
+        Bad  => (Learners -> Not interactive.)(Teachers -> No Live examples been shown. Only the basic examples were presented, which are to be used fully in real time projects)
+
+        Siva2 
+        Good => Same as Siva1
+        Bad  => (Learners -> Not understanding certain parts of javscrpit, working on it with other learners help.)(Teachers -> )
+
+        Jaajitha (started in mid of javascript ) 
+        Good => (Explaning were good.)
+        Bad  => (Teachers -> Better to explain the keywords which are given assignment on next day, as a summary)
+        General Comment => Cannot Tell since you joined at the mid of javscript seesion.
+
+        Rajeev anna ( started in mid of javascript )
+        Good => 
+        Bad  => 
+
+
+        Action poitns for the Retrospection:
+        
 
 
     
