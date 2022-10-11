@@ -1,0 +1,76 @@
+
+10 Oct 2022
+
+
+Why React
+easy to Use, manageable, expand features
+lesser lines of code 
+faster build process
+flexible, simple JS. 
+
+
+
+Advantages Of Reactjs 
+
+
+For installing Nodejs in windows
+https://www.geeksforgeeks.org/installation-of-node-js-on-windows/
+
+Getting started with Reactjs 
+https://reactjs.org/docs/getting-started.html
+
+
+
+Creating new reactjs app
+https://reactjs.org/docs/create-a-new-react-app.html
+
+
+
+One Other Package manager good to have for installation of packeges 
+Yarn 
+
+
+Learnings 
+
+    Understanding on what is JSX 
+
+        Its javascript extension to write HTML in js , allows html to write in js
+
+    --> ReactDOM.render([what], [where]);
+
+    ReactDOM    -> 
+    Browser DOM -> 
+
+
+npm install -g create-react-app@3.4.1
+create-react-app my-app --scripts-version 3.1.1
+
+
+
+
+11 Oct 2022
+
+
+
+Making simple fetch call in react
+
+State in react, 
+-> They are treated as immutable( We cannot modify the state )
+-> Every changes in the state re renders the particular class component
+-> Use setState() to modify the state in class 
+-> setState has access to two parameters -> previous props & props for the components
+
+
+
+Assignemnet -> check on the code pen example and lifecycle methods
+
+            Revise > Arow Functino,  Props, state in React 
+
+12 Oct 2022
+
+TODO: 
+we try displaying the posts array data to cards one fetch is done
+
+
+
+
