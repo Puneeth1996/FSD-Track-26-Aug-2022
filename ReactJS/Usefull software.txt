@@ -66,11 +66,47 @@ Assignemnet -> check on the code pen example and lifecycle methods
 
             Revise > Arow Functino,  Props, state in React 
 
+
 12 Oct 2022
 
 TODO: 
 we try displaying the posts array data to cards one fetch is done
 
+Things learnt today 
+        Fetch call for the post and displaying the data using map.
+        styling the react html elements
+        componentDidMount
+        used this.setState
+
+Task: 
+
+1. Handling events and FORM In React : https://reactjs.org/docs/handling-events.html
+
+2. can we make the setState work synchronously as its asyncronous action.
 
 
 
+Yestarday Assignemnet Discussion : 
+
+
+
+            Siva B ;
+                Arrow function: binding function to class component is advantagous in working with React Class based component
+                Props: tranfer data from one to another component
+                state in React : this.state object in constructor method of class component, incase of function we hooks of useState
+
+
+
+lifecycle method
+
+            Mounting , -> componentDidMount 
+            Unmounting -> componentWillUnMount, componentDidUnMount
+            Update     -> componentDidUpdate, componentWillMount
+
+
+13 Oct 2022
+
+    Creating Post component , sending data through props
+
+
+    Future CRUD operation on POSTS Site
