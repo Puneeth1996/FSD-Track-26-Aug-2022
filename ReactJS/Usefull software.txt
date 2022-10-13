@@ -110,3 +110,25 @@ lifecycle method
 
 
     Future CRUD operation on POSTS Site
+
+
+    Making our first simple Post component 
+    What why when to use component in react?
+        What is component -> Simple peice of function or code block , that performs a specified Task
+        why component -> Reuse 
+        when component -> in our case post card is being created multiple times so better to segergate the logic for building single post into separate component 
+
+
+
+
+    Topic Of Assignemnet 13 Oct 2022
+        -> IMPORTANT : IS react a Single Page Applicaton , What is Single Page Applicaton, 
+        -> Why is .jsx file naming used
+        -> Checkout what are the different api that gives posts data in https://jsonplaceholder.typicode.com/
+        -> How can routing or move to different pages take place in Single Page application in React
+    Previous 12 Oct 2022: 
+        1. Handling events and FORM In React : https://reactjs.org/docs/handling-events.html
+        2. can we make the setState work synchronously as its asyncronous action.
+
+
+

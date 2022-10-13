@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PostContainer from './Container/PostContiner/index';
 import "./App.css";
 
 class App extends Component {
@@ -6,16 +7,29 @@ class App extends Component {
     super(props);
     this.state = {
       posts: [],
+      loading: true,
+      error: ''
     };
   }
 
   fetchPost = async () => {
     const url = "https://jsonplaceholder.typicode.com/posts";
-    var result = await fetch(url);
-    var response = await result.json();
-    var data = await response;
-    this.setState({ posts: data });
-    return data;
+    try {
+      var result = await fetch(url);
+      var response = await result.json();
+      var data = await response;
+      this.setState({ posts: data, loading: false, error: '' });
+    } catch (error) {
+      console.log(error);
+      this.setState({ posts: [], loading: false, error: 'Error in the API call. Please retry.' });
+    }
+    // fetch(url)
+    // .then( response => response.json())
+    // .then(data => this.setState({ posts: data, loading: false, error: '' }))
+    // .catch(err => {
+    //   console.log(err);
+    //   this.setState({ posts: [], loading: false, error: 'Error in the API call. Please retry.' }) 
+    // })
   };
 
   componentDidMount() {
@@ -23,20 +37,14 @@ class App extends Component {
   }
 
   render() {
+    let loader = <></>;
+    if(this.state.loading){
+      loader = <p> Loading . . . </p>;
+    }
     return (
       <>
-        <div className='post-container'>
-          {this.state.posts.length > 0 &&
-            this.state.posts.map( singlePost => {
-              return (
-                <div key={singlePost.id} className='post-div'>
-                  <p>{singlePost.userId}</p>
-                  <p>{singlePost.title}</p>
-                  <p>{singlePost.body}</p>
-                </div>
-              );
-            })}
-        </div>
+        {loader}
+        {this.state.error ? <p>{this.state.error}</p> : <PostContainer allPosts={this.state.posts} />}
       </>
     );
   }

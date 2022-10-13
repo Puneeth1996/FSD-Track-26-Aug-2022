@@ -1,0 +1,8 @@
+.post-container {
+    border: 1px solid maroon;
+    background-color: #13b7b7;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
