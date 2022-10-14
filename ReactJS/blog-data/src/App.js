@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import PostContainer from './Container/PostContiner/index';
 import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from "react-router-dom";
+import Router from './router';
+
 
 class App extends Component {
   constructor(props) {
@@ -23,13 +27,6 @@ class App extends Component {
       console.log(error);
       this.setState({ posts: [], loading: false, error: 'Error in the API call. Please retry.' });
     }
-    // fetch(url)
-    // .then( response => response.json())
-    // .then(data => this.setState({ posts: data, loading: false, error: '' }))
-    // .catch(err => {
-    //   console.log(err);
-    //   this.setState({ posts: [], loading: false, error: 'Error in the API call. Please retry.' }) 
-    // })
   };
 
   componentDidMount() {
@@ -38,16 +35,21 @@ class App extends Component {
 
   render() {
     let loader = <></>;
-    if(this.state.loading){
+    if (this.state.loading) {
       loader = <p> Loading . . . </p>;
     }
     return (
       <>
-        {loader}
-        {this.state.error ? <p>{this.state.error}</p> : <PostContainer allPosts={this.state.posts} />}
+        <Link to="/invoices">Invoices</Link> |{" "}
+        <Link to="/expenses">Expenses</Link> |{" "}
+        <Link to="/">Home</Link>
+        <Router />
       </>
     );
   }
 }
 
 export default App;
+
+
+

@@ -121,14 +121,45 @@ lifecycle method
 
 
 
+
+14 Oct 2022 
+
+
+
+
     Topic Of Assignemnet 13 Oct 2022
+
+
         -> IMPORTANT : IS react a Single Page Applicaton , What is Single Page Applicaton, 
-        -> Why is .jsx file naming used
+        Ans Siva B: Responsive, dunamic changes can be handled in the same page instead of navigation to another web pages.
+        Ans   loads only a single web document, updates the body content of that single document via JavaScript APIs,
+        allows users to use websites without loading whole new pages from the server
+
+
+        -> Why is .jsx file naming used, 
+        Ans Siva B: HTML elements with js file , 
+        Ans Web: JSX allows us to write HTML in React. JSX makes it easier to write and add HTML in React.
+
+    
         -> Checkout what are the different api that gives posts data in https://jsonplaceholder.typicode.com/
+        
+        Ans, https://jsonplaceholder.typicode.com/posts/1
+             
+             https://jsonplaceholder.typicode.com/posts/1
+
+    
         -> How can routing or move to different pages take place in Single Page application in React
     Previous 12 Oct 2022: 
+
         1. Handling events and FORM In React : https://reactjs.org/docs/handling-events.html
+
         2. can we make the setState work synchronously as its asyncronous action.
 
 
+
+Today Activity,
+
+    installation react-bootstrap package
+
+    Simple routing in react-router setup and was able to naviagte to pages in react 
 
