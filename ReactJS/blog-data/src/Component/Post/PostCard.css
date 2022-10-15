@@ -1,0 +1,16 @@
+
+.post-div{
+    padding: 20px;
+}
+
+.post-div:nth-child(odd) {
+    background-color: #e955d8;
+}
+
+.post-div:nth-child(even) {
+    background-color: #a86b1b;
+}
+
+
+
+
